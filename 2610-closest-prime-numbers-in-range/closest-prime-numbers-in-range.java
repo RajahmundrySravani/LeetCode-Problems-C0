@@ -12,7 +12,7 @@ class Solution {
                         a[0] = prev;
                         a[1] = l;
                     }
-                    if(diff == 2) return a;
+                    if(diff == 1 || diff == 2) return a;
                 }
                 prev = l;
             }
